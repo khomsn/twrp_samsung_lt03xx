@@ -16,7 +16,6 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_SMP := true
 TARGET_CPU_VARIANT := cortex-a15
-#ARCH_ARM_HAVE_TLS_REGISTER := true
 
 
 # Flags
@@ -43,7 +42,6 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun%d/file
 
 # Recovery:Start
-
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/lt033g/custombootimg.mk
 
@@ -63,8 +61,6 @@ TW_BRIGHTNESS_PATH := /sys/class/backlight/panel/brightness
 TW_MAX_BRIGHTNESS := 250
 TW_NO_REBOOT_BOOTLOADER := true
 TW_HAS_DOWNLOAD_MODE := true
-#TW_INCLUDE_CRYPTO := true
-#TW_INCLUDE_CRYPTO_SAMSUNG := true
 TW_CRYPTO_FS_TYPE := "ext4"
 TW_CRYPTO_REAL_BLKDEV := "/dev/block/mmcblk0p29"
 TW_CRYPTO_MNT_POINT := "/data"
