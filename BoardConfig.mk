@@ -50,6 +50,7 @@ BOARD_CUSTOM_BOOTIMG_MK := device/samsung/lt033g/custombootimg.mk
 # Use this flag if the board has a ext4 partition larger than 2gb
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
+BOARD_SUPPRESS_SECURE_ERASE := true
 
 # TWRP specific build flags
 TARGET_PREBUILT_RECOVERY_KERNEL := device/samsung/lt033g/kernel
