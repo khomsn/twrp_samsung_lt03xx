@@ -17,7 +17,6 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_SMP := true
 TARGET_CPU_VARIANT := cortex-a15
 
-
 # Flags
 TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
@@ -51,6 +50,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 
 # TWRP specific build flags
+TW_NEW_ION_HEAP := true
 TARGET_PREBUILT_RECOVERY_KERNEL := device/samsung/lt033g/kernel
 DEVICE_RESOLUTION := 2560x1600
 RECOVERY_SDCARD_ON_DATA := true
