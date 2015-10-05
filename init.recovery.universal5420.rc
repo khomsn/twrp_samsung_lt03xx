@@ -1,6 +1,2 @@
 on early-init
-    setenforce permissive
-
-on init
-    mkdir /extSdCard
-    export EXTERNAL_STORAGE /extSdCard
+	setenforce permissive
