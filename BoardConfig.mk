@@ -62,7 +62,7 @@ TW_MAX_BRIGHTNESS := 250
 TW_NO_REBOOT_BOOTLOADER := true
 TW_HAS_DOWNLOAD_MODE := true
 TW_CRYPTO_FS_TYPE := "ext4"
-TW_CRYPTO_REAL_BLKDEV := "/dev/block/mmcblk0p29"
+TW_CRYPTO_REAL_BLKDEV := "/dev/block/mmcblk0p21"
 TW_CRYPTO_MNT_POINT := "/data"
 TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,noauto_da_alloc,discard,journal_async_commit,errors=panic"
 TW_CRYPTO_FS_FLAGS := "0x00000406"
