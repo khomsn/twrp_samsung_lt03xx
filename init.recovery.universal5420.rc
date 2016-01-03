@@ -1,2 +1,2 @@
 on early-init
-	setenforce permissive
+    setenforce permissive
