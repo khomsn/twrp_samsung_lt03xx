@@ -35,8 +35,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/file_contexts:recovery/root/prebuilt_file_contexts \
     $(LOCAL_PATH)/init.recovery.universal5420.rc:root/init.recovery.universal5420.rc
 
-$(call inherit-product, build/target/product/full.mk)
-
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := omni_lt033g
 PRODUCT_DEVICE := lt033g
