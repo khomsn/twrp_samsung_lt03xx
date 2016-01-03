@@ -25,8 +25,8 @@ COMMON_GLOBAL_CFLAGS += -DREFRESH_RATE=60
 # Kernel
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x11000000 --tags_offset 0x10000100
-TARGET_PREBUILT_KERNEL := device/samsung/lt033g/kernel
+TARGET_KERNEL_CONFIG := recovery_lt03_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/lt033g
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608
@@ -51,7 +51,6 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 
 # TWRP specific build flags
 TW_NEW_ION_HEAP := true
-TARGET_PREBUILT_RECOVERY_KERNEL := device/samsung/lt033g/kernel
 TW_THEME := landscape_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 BOARD_HAS_NO_REAL_SDCARD := true
