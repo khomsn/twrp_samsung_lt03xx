@@ -3,6 +3,9 @@ MKBOOTIMG_BIN := out/host/linux-x86/bin/mkbootimg
 $(INSTALLED_RECOVERYIMAGE_TARGET): $(MKBOOTIMG) \
 		$(recovery_ramdisk) \
 		$(recovery_kernel)
+	@echo ----- Replace Font ------
+	cp -f device/samsung/lt033g/res/OswaldCondensed-Regular.ttf $(PRODUCT_OUT)/recovery/root/twres/fonts/RobotoCondensed-Regular.ttf
+	cp -f device/samsung/lt033g/res/AnkaCoder-C87-r.ttf $(PRODUCT_OUT)/recovery/root/twres/fonts/DroidSansMono.ttf
 	@echo ----- Creating ramdisk ------
 	chmod 644 $(PRODUCT_OUT)/recovery/root/init.rc
 	chmod 644 $(PRODUCT_OUT)/recovery/root/default.prop
