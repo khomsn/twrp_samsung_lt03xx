@@ -117,8 +117,8 @@
         <string name="factory_reset_btn">Очистка данных</string>
         <string name="factory_reset1">Очистка всех настроек, программ, Cache и Dalvik</string>
         <string name="factory_reset2">(Не включая Внутреннюю память)</string>
-        <string name="factory_reset3">При этом варианте очистки будут удалены все настройки и программы</string>
-        <string name="factory_reset4">Устройство будет приведено к заводскому состоянию</string>
+        <string name="factory_reset3">При очистке данных будут удалены все настройки и программы</string>
+        <string name="factory_reset4">Содержимое внутренней памяти будет сохранено!</string>
         <string name="factory_resetting">Очистка данных…</string>
         <string name="advanced_wipe_hdr">Выборочная очистка</string>
         <string name="advanced_wipe_btn">Выборочная</string>
@@ -135,11 +135,11 @@
         <string name="invalid_part_sel">Выбран неверный раздел</string>
         <string name="format_data_hdr">Полная очистка</string>
         <string name="format_data_btn">Полная очистка</string>
-        <string name="format_data_ptr1">Очистка данных удалит все ваши программы и</string>
-        <string name="format_data_ptr2">файлы, так же удалятся зашифрованные</string>
-        <string name="format_data_ptr3">данные из внутренней памяти!</string>
-        <string name="format_data_lcp1">При полной очистке будут удалены все ваши программы и файлы</string>
-        <string name="format_data_lcp2">Также будет очищено все содержимое внутренней памяти!</string>
+        <string name="format_data_ptr1">При полной очистке будут удалены все настройки и программы</string>
+        <string name="format_data_ptr2">Все содержимое внутренней памяти будет удалено!</string>
+        <string name="format_data_ptr3">Используйте только в крайних случаях!</string>
+        <string name="format_data_lcp1">При полной очистке будут удалены все настройки и программы</string>
+        <string name="format_data_lcp2">Все содержимое внутренней памяти будет удалено!</string>
         <string name="format_data_wtc1">Очистка данных приведет к потере всех установленных программ,</string>
         <string name="format_data_wtc2">резевных копий и мультимедиа. Эта операция необратима!</string>
         <string name="format_data_undo">Эта операция необратима!</string>
@@ -284,9 +284,9 @@
         <string name="swipe_allow_mod">Выполнить</string>
         <string name="swipe_allow_mod_s">   Применение модификаций</string>
         <string name="settings_hdr">Настройки</string>
-        <string name="settings_gen_hdr">Основные настройки</string>
-        <string name="settings_gen_s_hdr">Основные</string>
-        <string name="settings_gen_btn">Основные</string>
+        <string name="settings_gen_hdr">Общие настройки</string>
+        <string name="settings_gen_s_hdr">Общие</string>
+        <string name="settings_gen_btn">Общие</string>
         <string name="use_rmrf_chk">Использовать rm -rf вместо форматирования</string>
         <string name="use24clock_chk">Использовать 24-часовой формат часов</string>
         <string name="rev_navbar_chk">Зеркальное расположение кнопок</string>
@@ -301,7 +301,7 @@
         <string name="settings_screen_bright_btn">Яркость экрана</string>
         <string name="settings_vibration_btn">Вибрация</string>
         <string name="settings_language_btn">Язык</string>
-        <string name="time_zone_hdr">Часовой пояс</string>
+        <string name="time_zone_hdr">Настройки часового пояса</string>
         <string name="sel_tz_list">Выбрать часовой пояс:</string>
         <!-- Translator note: if it does not make sense to translate the locations or if it makes more sense,
         feel free to change the location listed or drop the location entirely and just call it UTC -6 -->
@@ -342,18 +342,18 @@
         <string name="settings_screen_hdr">Настройки экрана</string>
         <string name="settings_screen_timeout_hdr">Время работы экрана</string>
         <string name="enable_timeout_chk">Выключать подсветку экрана</string>
-        <string name="screen_to_slider">Время ожидания в секундах</string>
-        <string name="screen_to_slider_s">Время ожидания в секундах (0 = выключено): %tw_screen_timeout_secs%</string>
-        <string name="screen_to_na">Настройка времени ожидания недоступна</string>
+        <string name="screen_to_slider">Время до выключения в секундах</string>
+        <string name="screen_to_slider_s">Время до выключения в секундах (0 = выключено): %tw_screen_timeout_secs%</string>
+        <string name="screen_to_na">Настройка времени до выключения недоступна</string>
         <string name="screen_bright_slider">Яркость: %tw_brightness_pct%%</string>
         <string name="screen_bright_na">Настройка яркости недоступна</string>
-        <string name="vibration_hdr">Вибрация</string>
-        <string name="button_vibration_hdr">Вибрация кнопок</string>
-        <string name="kb_vibration_hdr">Вибрация клавиатуры</string>
-        <string name="act_vibration_hdr">Вибрация действия</string>
-        <string name="button_vibration">Вибрация кнопок:</string>
-        <string name="kb_vibration">Вибрация клавиатуры:</string>
-        <string name="act_vibration">Вибрация действия:</string>
+        <string name="vibration_hdr">Длительность вибрации</string>
+        <string name="button_vibration_hdr">При нажатии на экран</string>
+        <string name="kb_vibration_hdr">При использовании клавиатуры</string>
+        <string name="act_vibration_hdr">При выполнении операций</string>
+        <string name="button_vibration">При нажатии на экран</string>
+        <string name="kb_vibration">При использовании клавиатуры</string>
+        <string name="act_vibration">При выполнении операций</string>
         <string name="select_language">Выбрать язык:</string>
         <string name="set_language_btn">Применить</string>
         <string name="advanced_hdr">Дополнительно</string>
@@ -365,7 +365,7 @@
         <string name="part_sd_btn">Разметка SD карты</string>
         <string name="part_sd_s_btn">SD карта</string>
         <string name="file_manager_btn">Файлы</string>
-        <string name="language_hdr">Язык</string>
+        <string name="language_hdr">Язык интерфейса</string>
         <string name="terminal_btn">Терминал</string>
         <string name="reload_theme_btn">Применить тему</string>
         <string name="dumlock_btn">HTC Dumlock</string>
