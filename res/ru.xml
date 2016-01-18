@@ -663,5 +663,6 @@
         <string name="change_fs_err">Ошибка выбора файловой системы</string>
         <string name="invalid_partsd_del">_ХЗ_ЧТО_ТАКОЕ_</string>
         <string name="invalid_partsd_sel">_ХЗ_ЧТО_ТАКОЕ_</string>
+        <string name="theme_ver_err">Версия применяемой темы не соответствует версии рекавери. Будет использована встроенная тема.</string>
     </resources>
 </language>
