@@ -139,6 +139,7 @@
         <string name="format_data_ptr1">При полной очистке будут удалены все настройки и программы</string>
         <string name="format_data_ptr2">Все содержимое внутренней памяти будет удалено!</string>
         <string name="format_data_ptr3">Используйте только в крайних случаях!</string>
+        <string name="format_data_adopted">Включая Adopted Storage</string>
         <string name="format_data_lcp1">При полной очистке будут удалены все настройки и программы</string>
         <string name="format_data_lcp2">Все содержимое внутренней памяти будет удалено!</string>
         <string name="format_data_wtc1">Очистка данных приведет к потере всех установленных программ,</string>
@@ -263,7 +264,7 @@
         <string name="rb_poweroff_btn">Выключение</string>
         <string name="rb_recovery_btn">Рекавери</string>
         <string name="rb_bootloader_btn">Загрузчик</string>
-        <string name="rb_download_btn">Загрузка</string>
+        <string name="rb_download_btn">Обновление ПО</string>
         <string name="turning_off">Выключение…</string>
         <string name="swipe_power_off">Выключение</string>
         <string name="swipe_power_off_s">   Выключение</string>
@@ -432,8 +433,8 @@
         <string name="fm_complete">Операции с файлами завершены</string>
         <string name="decrypt_data_hdr">Расшифровать данные</string>
         <string name="decrypt_data_enter_pass">Введите пароль для расшифровки</string>
-        <string name="decryt_data_failed">Пароль неверен, повторите!</string>
-        <string name="decryt_data_failed_pattern">Шаблон неверен, повторите!</string>
+        <string name="decrypt_data_failed">Пароль неверен, повторите!</string>
+        <string name="decrypt_data_failed_pattern">Шаблон неверен, повторите!</string>
         <string name="decrypt_data_enter_pattern">Введите шаблон</string>
         <string name="decrypt_data_trying">Попытка расшифровки</string>
         <string name="term_hdr">Терминальные команды</string>
@@ -662,5 +663,6 @@
         <string name="change_fs_err">Ошибка выбора файловой системы</string>
         <string name="theme_ver_err">Версия применяемой темы не соответствует версии рекавери. Будет использована встроенная тема</string>
         <string name="invalid_partsd_del">_ХЗ_ЧТО_ТАКОЕ_</string>
+        <string name="up_a_level">(На уровень вверх)</string>
     </resources>
 </language>
