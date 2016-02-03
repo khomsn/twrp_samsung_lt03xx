@@ -5,6 +5,8 @@ $(INSTALLED_RECOVERYIMAGE_TARGET): $(MKBOOTIMG) \
 		$(recovery_kernel)
 	@echo ----- Replace Font ------
 	cp -f device/samsung/lt033g/res/OswaldCondensed-Regular.ttf $(PRODUCT_OUT)/recovery/root/twres/fonts/RobotoCondensed-Regular.ttf
+	@echo ----- Replace RU translation ------
+	cp -f device/samsung/lt033g/res/ru.xml $(PRODUCT_OUT)/recovery/root/twres/languages/ru.xml
 	@echo ----- Creating ramdisk ------
 	chmod 644 $(PRODUCT_OUT)/recovery/root/init.rc
 	chmod 644 $(PRODUCT_OUT)/recovery/root/default.prop

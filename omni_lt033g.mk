@@ -19,17 +19,6 @@
 # product configuration (apps).
 #
 
-# Inherit from those products. Most specific first.
-#$(call inherit-product, device/samsung/lt033g/device.mk)
-# This is where we'd set a backup provider if we had one
-#$(call inherit-product, device/sample/products/backup_overlay.mk)
-
-# My ##
-#$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/res/ru.xml:recovery/root/twres/languages/ru.xml
-
 # Necessary to mount a PC
 $(call inherit-product, build/target/product/full.mk)
 
