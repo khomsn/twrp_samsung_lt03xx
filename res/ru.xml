@@ -216,7 +216,7 @@
         <string name="disabled">Выключено</string>
         <string name="enabled">Включено</string>
         <string name="backup_name_hdr">Задайте имя копии</string>
-        <string name="progress">Прогресс:</string>
+        <string name="progress">Выполнено:</string>
         <string name="backup_complete">Сохранение выполнено</string>
         <string name="restore_hdr">Восстановление</string>
         <string name="sel_backup_hdr">Выбрать копию</string>
@@ -361,8 +361,7 @@
         <string name="copy_log_confirm">Сохранить лог на SD карту?</string>
         <string name="copying_log">Сохранение лога…</string>
         <string name="copy_log_complete">Сохранение лога завершено</string>
-        <string name="fix_perm_btn">Разрешения</string>
-        <string name="fix_perm_s_btn">Разрешения</string>
+        <string name="fix_context_btn">Разрешения</string>
         <string name="part_sd_btn">Разметка SD карты</string>
         <string name="part_sd_s_btn">SD карта</string>
         <string name="file_manager_btn">Файлы</string>
@@ -449,15 +448,14 @@
         <string name="sideload_confirm">ADB загрузчик</string>
         <string name="sideload_usage">Использование: adb sideload имя_файла.zip</string>
         <string name="sideload_complete">Операции через ADB завершены</string>
-        <string name="fix_perms_hdr">Исправить разрешения</string>
-        <string name="fix_perms_note">Исправление разрешений требуется в редких случаях</string>
-        <string name="fix_perms_selinux_chk">Исправить SELinux контексты</string>
-        <string name="fix_perms_sel_note1">Исправление SELinux контекстов может привести к</string>
-        <string name="fix_perms_sel_note2">нарушению правильной загрузки вашего устройства</string>
-        <string name="swipe_to_fix_perms">Выполнить</string>
-        <string name="swipe_fix_perms">   Исправление разрешений</string>
-        <string name="fixing_perms">Исправление разрешений…</string>
-        <string name="fix_perms_complete">Исправление разрешений завершено</string>
+        <string name="fix_contexts_hdr">Исправить разрешения</string>
+        <string name="fix_contexts_note1">Исправление разрешений требуется в редких случаях</string>
+        <string name="fix_contexts_note2">Исправление SELinux контекстов может привести к</string>
+        <string name="fix_contexts_note3">нарушению правильной загрузки вашего устройства</string>
+        <string name="swipe_to_fix_contexts">Выполнить</string>
+        <string name="swipe_fix_contexts">   Исправить разрешения</string>
+        <string name="fixing_contexts">Исправление разрешений…</string>
+        <string name="fix_contexts_complete">FИсправление разрешений завершено</string>
         <string name="reboot_hdr">Перезагрузка</string>
         <string name="su_hdr">Проверка SuperSU</string>
         <string name="su_note1">На вашем устройстве нет ROOT доступа</string>
@@ -502,7 +500,7 @@
         <string name="restore_started">[НАЧАЛО ВОССТАНОВЛЕНИЯ]</string>
         <string name="restore_folder">Каталог для восстановления: '{1}'</string>
         <!-- {1} is the partition display name and {2} is the number of seconds -->
-        <string name="restort_part_done">[ВОССТАНОВЛЕНИЕ {1} ЗАВЕРШЕНО ЗА ({2} СЕКУНД(Ы))]</string>
+        <string name="restore_part_done">[ВОССТАНОВЛЕНИЕ {1} ЗАВЕРШЕНО ЗА ({2} СЕКУНД(Ы))]</string>
         <string name="verifying_md5">Проверка MD5</string>
         <string name="skip_md5">Пропуск проверки MD5 согласно настройкам</string>
         <string name="calc_restore">Вычисление параметров восстановления…</string>
@@ -662,7 +660,7 @@
         <string name="cancel_sideload">Отмена ADB загрузчика…</string>
         <string name="change_fs_err">Ошибка выбора файловой системы</string>
         <string name="theme_ver_err">Версия применяемой темы не соответствует версии рекавери. Будет использована встроенная тема</string>
+        <string name="up_a_level">(на уровень выше)</string>
         <string name="invalid_partsd_del">_ХЗ_ЧТО_ТАКОЕ_</string>
-        <string name="up_a_level">(На уровень вверх)</string>
     </resources>
 </language>
