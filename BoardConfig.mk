@@ -45,7 +45,6 @@ TW_MTP_DEVICE := /dev/mtp_usb
 
 # Graphics and Display
 RECOVERY_GRAPHICS_FORCE_USE_LINELENGTH := true
-TARGET_RECOVERY_FORCE_PIXEL_FORMAT := "BGRA_8888"
 TW_BRIGHTNESS_PATH := /sys/class/backlight/panel/brightness
 TW_MAX_BRIGHTNESS := 250
 TW_THEME := landscape_hdpi
