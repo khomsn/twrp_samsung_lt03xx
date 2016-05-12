@@ -1,2 +1,5 @@
 on early-init
     setenforce permissive
+
+on init
+    symlink /external_sd /extSdCard
