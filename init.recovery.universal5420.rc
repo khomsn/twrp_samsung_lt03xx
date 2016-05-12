@@ -3,3 +3,6 @@ on early-init
 
 on init
     symlink /external_sd /extSdCard
+
+    # Set vibratir intensity
+    write /sys/devices/virtual/timed_output/vibrator/pwm_value 100
