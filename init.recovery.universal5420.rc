@@ -4,5 +4,9 @@ on early-init
 on init
     symlink /external_sd /extSdCard
 
+on boot
     # Set vibratir intensity
     write /sys/devices/virtual/timed_output/vibrator/pwm_value 100
+
+    # f_acm instances to 0
+    write /sys/devices/virtual/android_usb/android0/f_acm/instances 0
