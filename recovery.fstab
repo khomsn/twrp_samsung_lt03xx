@@ -5,6 +5,6 @@
 /boot		emmc		/dev/block/mmcblk0p9
 /recovery	emmc		/dev/block/mmcblk0p10
 /efs		emmc		/dev/block/mmcblk0p3
-/modem		emmc		/dev/block/mmcblk0p13
+/modem		emmc		/dev/block/mmcblk0p13					flags=display="Modem";backup=1
 /preload	ext4		/dev/block/mmcblk0p16
 /usb-otg	vfat		/dev/block/sda1			/dev/block/sda		flags=display="USB OTG drive";storage;wipeingui;removable
