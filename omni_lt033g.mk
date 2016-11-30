@@ -25,6 +25,10 @@ $(call inherit-product, build/target/product/full.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.recovery.universal5420.rc:root/init.recovery.universal5420.rc
 
+# Time Zone data for recovery
+PRODUCT_COPY_FILES += \
+    bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
+
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := omni_lt033g
 PRODUCT_DEVICE := lt033g
