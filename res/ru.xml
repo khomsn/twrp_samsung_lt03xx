@@ -52,7 +52,7 @@
         <string name="mount_btn">Монтирование</string>
         <string name="settings_btn">Настройки</string>
         <string name="advanced_btn">Дополнительно</string>
-        <string name="reboot_btn">Перезагрузка</string>
+        <string name="reboot_btn">Выход</string>
         <string name="files_btn">Файлы</string>
         <string name="copy_log_btn">Сохранить лог</string>
         <string name="select_type_hdr">Выбрать тип</string>
@@ -471,7 +471,7 @@
         <!-- Various console messages - these consist of user displayed messages, oftentimes errors -->
         <string name="no_kernel_selinux">Ядро не поддерживает чтение SELinux контекста</string>
         <string name="full_selinux">Присутствует полная поддержка SELinux</string>
-        <string name="no_selinux">SELinux не поддерживается (нет libselinux)</string>
+        <string name="no_selinux">SELinux не поддерживается (отсутствует libselinux)</string>
         <string name="mtp_enabled">MTP включен</string>
         <string name="mtp_crash">Ошибка включения MTP при загрузке!</string>
         <string name="decrypt_success">Расшифровка со стандартным паролем выполнена</string>
@@ -521,7 +521,7 @@
         <string name="wiping_dalvik">Очистка Dalvik…</string>
         <string name="cleaned">Очищено: {1}…</string>
         <string name="dalvik_done"> * Очистка Dalvik завершена</string>
-        <string name="no_andsec">Не найден раздел android secure</string>
+        <string name="no_andsec">Не найден раздел Android Secure</string>
         <string name="unable_to_locate">Не удалось найти {1}</string>
         <string name="wiping_datamedia">Очистка встроенной памяти - /data/media…</string>
         <string name="unable_to_mount">Не удалось смонтировать {1}</string>
@@ -600,7 +600,7 @@
         <string name="running_command">Запущена команда</string>
         <string name="sideload">ADB загрузчик</string>
         <string name="start_sideload">Запуск ADB загрузчика…</string>
-        <string name="need_new_adb">Для продолжения необходим adb версии не ниже 1.0.32</string>
+        <string name="need_new_adb">Для продолжения необходим ADB версии не ниже 1.0.32</string>
         <string name="no_pwd">Пароль не предусмотрен</string>
         <string name="done_ors">Завершена обработка файла скрипта</string>
         <string name="injecttwrp">Установка TWRP в загрузочный раздел…</string>
@@ -663,6 +663,10 @@
         <string name="theme_ver_err">Версия применяемой темы не соответствует версии рекавери. Будет использована встроенная тема</string>
         <string name="up_a_level">(на уровень выше)</string>
         <string name="install_reboot">Перезагрузка через 5 секунд</string>
+        <string name="adbbackup_error">Ошибка сохранения через ADB. Завершение…"</string>
+        <string name="adbbackup_control_error">Запись в контрольный канал ADB невозможна</string>
+        <string name="twrp_adbbu_option"> * Необходимо включение в TWRP возможности сохранения через ADB</string>
+        <string name="partition_not_found">путь: {1} не найден в списке разделов</string>
         <string name="invalid_partsd_del">_ХЗ_ЧТО_ТАКОЕ_</string>
     </resources>
 </language>
