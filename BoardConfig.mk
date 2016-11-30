@@ -39,8 +39,6 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/lt033g/custombootimg.mk
-
 # USB Mounting
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun%d/file
 TW_MTP_DEVICE := /dev/mtp_usb

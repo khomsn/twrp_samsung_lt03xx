@@ -21,4 +21,4 @@
 # function: add_lunch_combo generic-eng
 
 add_lunch_combo omni_lt033g-eng
-#sh device/samsung/lt033g/res/applypatch.sh
+sh device/samsung/lt033g/res/applypatch.sh
