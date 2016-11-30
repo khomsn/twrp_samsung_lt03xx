@@ -1,4 +1,4 @@
-TARGET_OTA_ASSERT_DEVICE := lt033g,lt03wifi,lt03wifiue
+TARGET_OTA_ASSERT_DEVICE := lt033g,lt03wifi,lt03wifiue,n1awifi,n1a3g
 
 TARGET_NO_BOOTLOADER := true
 TARGET_BOOTLOADER_BOARD_NAME := universal5420
