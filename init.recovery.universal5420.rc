@@ -1,6 +1,4 @@
 on early-init
-    setenforce permissive
-
     # Tune Interactive
     write /sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay "20000 1000000:80000 1200000:100000 1700000:20000"
     write /sys/devices/system/cpu/cpufreq/interactive/boost 0
