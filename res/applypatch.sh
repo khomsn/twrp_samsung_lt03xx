@@ -21,6 +21,5 @@ else
     echo "*** No patches ***"
 fi
 
-cp -f $dir/OswaldCondensed-Regular.ttf $top/bootable/recovery/gui/devices/common/res/fonts/RobotoCondensed-Regular.ttf
 cp -f $dir/OswaldCondensed-Regular.ttf $top/bootable/recovery/gui/theme/common/fonts/RobotoCondensed-Regular.ttf
 cp -f $dir/ru.xml $top/bootable/recovery/gui/theme/common/languages/ru.xml
