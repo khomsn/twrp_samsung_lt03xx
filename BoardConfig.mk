@@ -53,7 +53,7 @@ TW_NEW_ION_HEAP := true
 TW_CRYPTO_REAL_BLKDEV := "/dev/block/mmcblk0p21"
 TW_CRYPTO_MNT_POINT := "/data"
 TW_CRYPTO_KEY_LOC := "footer"
-TW_INCLUDE_L_CRYPTO := true
+TW_INCLUDE_CRYPTO := true
 
 # Storages
 TW_INTERNAL_STORAGE_PATH := "/sdcard"
