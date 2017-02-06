@@ -2,7 +2,7 @@
     {
         "remote": "github",
         "repository": "ShevT/kernel_samsung_lt033g",
-        "revision": "cm-13.0",
+        "revision": "cm-14.1",
         "target_path": "kernel/samsung/lt033g"
     }
 ]
