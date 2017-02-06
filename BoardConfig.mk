@@ -52,7 +52,7 @@ TW_THEME := landscape_hdpi
 TW_NEW_ION_HEAP := true
 
 # Crypto
-TW_CRYPTO_REAL_BLKDEV := "/dev/block/mmcblk0p21"
+TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/dw_mmc.0/by-name/USERDATA"
 TW_CRYPTO_MNT_POINT := "/data"
 TW_CRYPTO_KEY_LOC := "footer"
 TW_INCLUDE_CRYPTO := true
