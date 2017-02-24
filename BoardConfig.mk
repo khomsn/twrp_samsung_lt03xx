@@ -40,6 +40,10 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 
+# Extended filesystems support
+TARGET_KERNEL_HAVE_EXFAT := true
+TARGET_KERNEL_HAVE_NTFS := true
+
 # USB Mounting
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun%d/file
 TW_MTP_DEVICE := /dev/mtp_usb
@@ -76,4 +80,4 @@ TW_NO_REBOOT_BOOTLOADER := true
 TW_HAS_DOWNLOAD_MODE := true
 
 # SubVersion
-TW_DEVICE_VERSION := 2
+TW_DEVICE_VERSION := 3
