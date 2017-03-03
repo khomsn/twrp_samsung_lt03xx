@@ -4,6 +4,7 @@
 /external_sd	vfat	/dev/block/mmcblk1p1				/dev/block/mmcblk1	flags=display="MicroSD card";storage;wipeingui;removable
 /boot		emmc	/dev/block/platform/dw_mmc.0/by-name/BOOT
 /recovery	emmc	/dev/block/platform/dw_mmc.0/by-name/RECOVERY
+/misc		emmc	/dev/block/platform/dw_mmc.0/by-name/OTA
 /efs		emmc	/dev/block/platform/dw_mmc.0/by-name/EFS				flags=display="EFS";backup=1
 /modem		emmc	/dev/block/platform/dw_mmc.0/by-name/RADIO				flags=display="Modem";backup=1
 /preload	ext4	/dev/block/platform/dw_mmc.0/by-name/HIDDEN				flags=display="Preload";backup=1
