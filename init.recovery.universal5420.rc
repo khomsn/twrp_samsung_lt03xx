@@ -23,8 +23,8 @@ on early-init
     write /sys/devices/system/cpu/cpufreq/interactive/timer_slack 20000
 
     # Exynos Thermal throttling
-    write /sys/class/thermal/thermal_zone0/oneshot_trip_temp "70 80 85 95"
-    write /sys/class/thermal/thermal_zone0/oneshot_trip_freq "1700 1500 800 600"
+    write /sys/class/thermal/thermal_zone0/oneshot_trip_temp "70 80 85 90"
+    write /sys/class/thermal/thermal_zone0/oneshot_trip_freq "1800 1600 1100 600"
 
 on init
     symlink /external_sd /extSdCard
