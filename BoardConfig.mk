@@ -79,5 +79,8 @@ RECOVERY_SDCARD_ON_DATA := true
 TW_NO_REBOOT_BOOTLOADER := true
 TW_HAS_DOWNLOAD_MODE := true
 
+# Exclude SuperSU
+TW_EXCLUDE_SUPERSU := true
+
 # SubVersion
 TW_DEVICE_VERSION := 0
