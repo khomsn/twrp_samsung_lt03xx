@@ -82,5 +82,8 @@ TW_HAS_DOWNLOAD_MODE := true
 # Exclude SuperSU
 TW_EXCLUDE_SUPERSU := true
 
+# Disable twrp app prompt
+TW_DISABLE_APK_INSTALL := true
+
 # SubVersion
 TW_DEVICE_VERSION := 0
