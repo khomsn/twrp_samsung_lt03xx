@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <language>
-	<!-- Translation version 0.6.1, author: Kirhe@4pda -->
+	<!-- Translation version 0.6.2, author: Kirhe@4pda -->
 	<display>Русский</display>
 	<resources>
 		<!-- Font overrides - only change these if your language requires special characters -->
@@ -118,7 +118,7 @@
 		<string name="reboot_install_app_hdr">Установить приложение TWRP?</string>
 		<string name="reboot_install_app1">Вы хотите установить официальное приложение TWRP?</string>
 		<string name="reboot_install_app2">Это приложение позволяет проверять обновления TWRP рекавери</string>
-		<string name="reboot_install_app_prompt_install">Запрос на установку приложения TWRP при перезагрузке</string>
+		<string name="reboot_install_app_prompt_install">Установить приложение TWRP при перезагрузке</string>
 		<string name="reboot_install_app_system">Установить приложение TWRP как системное</string>
 		<string name="reboot_installing_app">Установка приложения…</string>
 		<string name="swipe_to_install_app">Выполнить</string>
@@ -497,10 +497,10 @@
 		<string name="unable_to_decrypt">Невозможно расшифровать со стандартным паролем. Вам потребуется очистка данных</string>
 		<string name="generating_md51">Создание MD5</string>
 		<!-- Message displayed during a backup if we are generating an MD5, ideally, leave the leading " * " to help align and separate this text from other console text -->
-		<string name="generating_digest2" version="2"> * Расчет контрольной суммы…</string>
-		<string name="digest_created" version="2"> * Расчет завершен</string>
-		<string name="digest_error" version="2"> * Ошибка контрольной суммы!</string>
-		<string name="digest_compute_error" version="2"> * Ошибка расчета контрольной суммы</string>
+		<string name="generating_digest2" version="2">Расчет контрольной суммы…</string>
+		<string name="digest_created" version="2">…завершено</string>
+		<string name="digest_error" version="2">Ошибка контрольной суммы!</string>
+		<string name="digest_compute_error" version="2">Ошибка расчета контрольной суммы</string>
 		<string name="current_date">(текущая дата)</string>
 		<string name="auto_generate">(автоматически)</string>
 		<string name="unable_to_locate_partition">Недоступное расположение раздела '{1}' для вычисления копии</string>
@@ -509,7 +509,7 @@
 		<string name="total_backup_size"> * Общий размер всех данных: {1} Мб</string>
 		<string name="available_space"> * Доступное место: {1} Мб</string>
 		<string name="unable_locate_storage">Не удалось найти память устройства</string>
-		<string name="no_space">Нет свободного места на накопителе</string>
+		<string name="no_space">Нет свободного места в памяти устройства</string>
 		<string name="backup_started">[НАЧАЛО СОХРАНЕНИЯ]</string>
 		<string name="backup_folder"> * Каталог для сохранения: {1}</string>
 		<string name="fail_backup_folder">Не удалось выбрать каталог для сохранения</string>
@@ -522,7 +522,7 @@
 		<!-- {1} is the partition display name and {2} is the number of seconds -->
 		<string name="restore_part_done">…завершено за {2} секунд(ы)</string>
 		<string name="verifying_digest" version="2">Проверка контрольной суммы</string>
-		<string name="skip_digest" version="2">Пропуск проверки контрольной суммы согласно настройкам</string>
+		<string name="skip_digest" version="2">Пропуск проверки контрольной суммы</string>
 		<string name="calc_restore">Вычисление параметров восстановления…</string>
 		<string name="restore_read_only">Ошибка восстановления {1} - смонтировано в режиме для чтения</string>
 		<string name="restore_unable_locate">Не удалось найти '{1}' раздел для восстановления</string>
@@ -539,7 +539,7 @@
 		<string name="update_part_details_done">…завершено</string>
 		<string name="wiping_dalvik">Очистка Dalvik/ART…</string>
 		<string name="cleaned">Очищено: {1}…</string>
-		<string name="dalvik_done"> * Очистка Dalvik/ART завершена</string>
+		<string name="dalvik_done">…завершено</string>
 		<string name="no_andsec">Не найден раздел Android Secure</string>
 		<string name="unable_to_locate">Не удалось найти {1}</string>
 		<string name="wiping_datamedia">Очистка встроенной памяти - /data/media…</string>
@@ -596,7 +596,7 @@
 		<string name="cannot_wipe">Раздел {1} невозможно очистить</string>
 		<string name="remove_all">Удаление всех файлов из '{1}'</string>
 		<string name="wiping_data">Очистка данных без очистки /data/media…</string>
-		<string name="backing_up">Сохранение {1}…</string>
+		<string name="backing_up"> * Сохранение {1}…</string>
 		<string name="backup_storage_warning">Сохранение {1} не включает файлы из памяти устройства такие как фото или загрузки</string>
 		<string name="backing">Сохранение</string>
 		<string name="backup_size">Размер файла копии '{1}' нулевой</string>
@@ -691,7 +691,7 @@
 		<string name="partition_not_found">Раздел {1} не найден в списке разделов</string>
 		<string name="copy_kernel_log">Лог ядра сохранен в {1}</string>
 		<string name="include_kernel_log">Сохранить лог работы ядра</string>
-		<string name="sha2_chk">SHA2 для контрольной суммы</string>
+		<string name="sha2_chk">Использовать SHA2 для контрольной суммы</string>
 		<string name="unable_set_boot_slot">Не удалось изменить загрузочный слот на {1}</string>
 	</resources>
 </language>
